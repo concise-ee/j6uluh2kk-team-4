@@ -16,6 +16,7 @@ const imagesWithUrl = [
 export const Christmas = ({christmas}) => {
     return(
         <div className="container">
+<iframe src="https://free.timeanddate.com/countdown/i83o0bpv/n242/cf100/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac000/cpc000/pcfff/tcfff/fn2/fs325/szw576/szh243/tatJ%C3%B5uludeni/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2021-12-24T00:00:00" allowtransparency="true" frameborder="0" width="576" height="243"></iframe>
             <SimpleImageSlider
                 width={1000}
                 height={1000}
@@ -25,6 +26,7 @@ export const Christmas = ({christmas}) => {
                 autoPlay={true}
                 loop={true}
             />
+
             <iframe allow="autoplay" style={{visibility: "hidden"}} width="560" height="315" src="https://www.youtube.com/embed/pzK3_MA1Al4?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     )

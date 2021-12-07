@@ -25,8 +25,7 @@ export const Christmas = ({christmas}) => {
                 autoPlay={true}
                 loop={true}
             />
-
-            <iframe style={{visibility: "hidden"}} id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/j5ceLMPlqnA?autoplay=1&origin=http://example.com" frameborder="0"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sGkh1W5cbH4?controls=0&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     )
 }

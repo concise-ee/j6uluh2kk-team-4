@@ -25,7 +25,7 @@ export const Christmas = ({christmas}) => {
                 autoPlay={true}
                 loop={true}
             />
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sGkh1W5cbH4?controls=0&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style={{visibility: "hidden"}} width="560" height="315" src="https://www.youtube.com/embed/sGkh1W5cbH4?autoplay=1&controls=0&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     )
 }
